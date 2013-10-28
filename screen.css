@@ -1,0 +1,10 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: 'IM Fell DW Pica SC', serif;
+}
