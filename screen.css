@@ -7,4 +7,13 @@
 
 body {
     font-family: 'IM Fell DW Pica SC', serif;
+    padding-top: 50px;
+}
+.background-pic{
+    background-image: url("img/bokeh.jpg")
+    ;
+}
+
+.row{
+    padding-bottom: 30px;
 }
