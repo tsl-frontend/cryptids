@@ -6,5 +6,43 @@
 }
 
 body {
+    padding-top: 100px;
     font-family: 'IM Fell DW Pica SC', serif;
 }
+
+.navbar-header a {
+    color: white;
+}
+
+.navbar-header .btn {
+    background: rgb(66,139,202);
+    color: white;
+    border: none;
+}
+
+.jumbotron .btn {
+    background:#5bc0de;
+    border: none;
+    text-transform: uppercase;
+}
+
+.jumbotron {
+    text-align:center;
+    background: rgba(238,238,238,1) ;
+}
+
+.jumbotron h1 {
+    font-family: 'IM Fell DW Pica SC', serif;
+
+}
+.col-md-4 img {
+    border-radius: 50%;
+}
+.row {
+    margin-bottom: 20px;
+}
+
+.jumbotron .glyphicon {
+    padding-right: 10px;
+}
+
