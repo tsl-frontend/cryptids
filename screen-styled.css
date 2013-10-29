@@ -7,10 +7,28 @@
 
 body {
     font-family: 'IM Fell DW Pica SC', serif;
+
 }
 
+.crazy {
+    background-color: darkblue;
+    color: white;
+    text-align:center;
+    padding: 5px;
+    font-family: 'IM Fell DW Pica SC', serif;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    font-size: 20px;
+}
+
+.navbar li {
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
 .cryptid {
-    border-radius: 50%;
     padding-bottom: 20px;
     position: relative;
 }
@@ -23,6 +41,3 @@ body {
     font-size: 18px;
 }
 
-.nav-pills {
-    padding-bottom: 20px;
-}
