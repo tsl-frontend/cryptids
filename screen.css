@@ -9,19 +9,25 @@ body {
     font-family: 'IM Fell DW Pica SC', serif;
 }
 
-.circle img {
-    border-radius:50%;
+h2 {
+    font-family: 'IM Fell DW Pica SC', serif;
+    text-align: center;
+    color: white;
+    background-color: #2a3e8e;
+    padding: 10px 0px 10px 0px;
+
 }
 
-.spacer {
-    margin-bottom:30px;
+header{
+    height: 50px;
+    background-color:#2a3e8e;
 }
 
-.nav {
-    margin-bottom: 15px;
-}
-
-.top{
+.check{
 
     position: absolute;
+    top:75px;
+    left:110px;
+    font-size: 110px;
+    color:white;
 }
