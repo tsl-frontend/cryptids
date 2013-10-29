@@ -8,3 +8,20 @@
 body {
     font-family: 'IM Fell DW Pica SC', serif;
 }
+
+.circle img {
+    border-radius:50%;
+}
+
+.spacer {
+    margin-bottom:30px;
+}
+
+.nav {
+    margin-bottom: 15px;
+}
+
+.top{
+
+    position: absolute;
+}
