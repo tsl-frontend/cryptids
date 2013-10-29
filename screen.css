@@ -17,3 +17,18 @@ body {
 .row{
     padding-bottom: 30px;
 }
+.navbar{
+    margin-top: -30px;
+}
+h2{
+    text-align: center;
+    color: white;
+     font-family: 'IM Fell DW Pica SC', serif;
+     width: 100%;
+}
+
+
+.header {
+    background: #1F3D99;
+
+}
