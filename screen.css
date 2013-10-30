@@ -6,31 +6,55 @@
 }
 
 body {
-    background-image:url('img/bokeh.jpg')
+    background: url(img/bokeh.jpg);
     font-family: 'IM Fell DW Pica SC', serif;
-
-.navbar {
-    font-size: 50px;
 }
 
-h1 {
-    font-size: 18px;
-    background: #2A3E8E;
+.navbar {
+    font-size: 20px;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+.nav nav-pills {
+    display: inline-block;
     text-align: center;
 }
 
+h1 {
+    font-size: 40px;
+    color: white;
+    background: #2A3E8E;
+    text-align: center;
+    font-family: 'IM Fell DW Pica SC', serif
+}
+
 .jumbotron {
-    color: rgba(192,192,192,0.2);
-    font-size: 50px;
+    background-color: rgba(208,10,255,.1);
+    font-size: 20px;
+    font-family: 'IM Fell DW Pica SC', serif
+    text-align:center;
+}
+
+.jumbotron .headline {
+    color: rgba(0,0,0,1);
+    font-size: 40px;
+    font-family: 'IM Fell DW Pica SC', serif
+}
+
+.jumbotron .bodycopy {
+    color: rgba(0,0,0,1);
+    font-size: 20px;
+    font-family: 'IM Fell DW Pica SC', serif
 }
 
 .headline {
-    font-size: 75px;
+    font-size: 50px;
     font-weight: regular;
+    font-family: 'IM Fell DW Pica SC', serif
 }
 
 .bodycopy {
-    font-size: 27px;
+    font-size: 20px;
 
 }
 
@@ -42,6 +66,16 @@ h1 {
 
 }
 
-.imggallery {
+.glyphicon glyphicon-ok {
+    size: 100px;
+    color: white;
+}
 
+.img-circle {
+    padding: 10px
+    margin: 10px;
+}
+
+.img-circle: hover {
+    opacity: 50%;
 }
