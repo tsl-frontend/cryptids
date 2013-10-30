@@ -140,11 +140,11 @@ h3.tagline {
 .checkout {
     background: rgba(208,237,245,.5);
     padding: 2em 0;
+    text-transform: uppercase;
 }
 
 .checkout legend {
     font-weight: bold;
-    text-transform: uppercase;
     font-size: 14px;
     line-height: 30px;
     border: none;
@@ -154,7 +154,7 @@ h3.tagline {
     margin-bottom: 1em;
 }
 
-.about input {
+.about input, .spell textarea {
     margin-bottom: .5em;
     background: none;
     border: 1px dashed rgba(0,0,0,.3);
@@ -162,7 +162,7 @@ h3.tagline {
     text-transform: uppercase;
 }
 
-.about input:focus {
+.about input:focus, .spell textarea:focus {
     background: rgba(255,255,255,.6);
     box-shadow: none;
 }
@@ -172,7 +172,6 @@ h3.tagline {
 }
 
 .radio-check label {
-    text-transform: uppercase;
     padding: 5px 8px;
     border-radius: 5px;
     cursor: pointer;
@@ -201,4 +200,14 @@ h3.tagline {
 
 .accessories input:checked + label i {
     display: inline-block;
+}
+
+.spell textarea {
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    height: 6em;
+}
+
+.checkout .btn {
+    text-transform: uppercase;
 }
