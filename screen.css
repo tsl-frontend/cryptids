@@ -134,3 +134,71 @@ h3.tagline {
     color: white;
     font-size: 120px;
 }
+
+/* FORM */
+
+.checkout {
+    background: rgba(208,237,245,.5);
+    padding: 2em 0;
+}
+
+.checkout legend {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 30px;
+    border: none;
+}
+
+.about {
+    margin-bottom: 1em;
+}
+
+.about input {
+    margin-bottom: .5em;
+    background: none;
+    border: 1px dashed rgba(0,0,0,.3);
+    box-shadow: none;
+    text-transform: uppercase;
+}
+
+.about input:focus {
+    background: rgba(255,255,255,.6);
+    box-shadow: none;
+}
+
+.radio-check input {
+    display: none;
+}
+
+.radio-check label {
+    text-transform: uppercase;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #555;
+    transition: all 300ms ease;
+}
+
+.radio-check label i {
+    position: relative;
+    top: 2px;
+    margin-right: 4px;
+}
+
+.currency input:checked + label {
+    background: rgba(255,255,255,.9);
+    color: black;
+}
+
+.accessories label i {
+    display: none;
+}
+
+.accessories input:checked + label {
+    color: black;
+}
+
+.accessories input:checked + label i {
+    display: inline-block;
+}
