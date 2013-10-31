@@ -5,6 +5,31 @@
     background-repeat: no-repeat;
 }
 
-/*body {
+body {
     font-family: 'IM Fell DW Pica SC', serif;
-}*/
+    text-align: center;
+    background: url(img/bokeh.jpg) no-repeat;
+}
+
+h1 {
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+h2 {
+    font-family: 'IM Fell DW Pica SC', serif;
+    text-transform: uppercase;
+    color: white;
+    background-color: #3300cc;
+    font-size: 14px;
+    letter-spacing: .5em;
+    padding: 10px;
+    margin: 0;
+}
+
+.container {
+    background: pink;
+}
+
+.form-control+name {
+    border: 1 px dotted gray;
+}
