@@ -1,0 +1,86 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: 'IM Fell DW Pica SC', serif;
+
+}
+
+h2{
+    position: fixed;
+    background: #2A3E8E;
+    color:white;
+    text-align:center;
+    width:100%;
+    text-transform: uppercase;
+    padding:10px;
+    margin: 0;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 18px;
+    letter-spacing: 7px;
+    z-index: 100;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+h1:first-letter {
+    font-size: 150%;
+}
+
+.navbar{
+    padding-top: 60px;
+    z-index: 1;
+}
+
+/*.nav.nav-pills ul {
+    width: 900px;
+
+}*/
+.nav {
+    text-align: center;
+}
+
+.nav.nav-pills li {
+    font-size: 12pt;
+    text-transform: uppercase;
+    display: inline-block;
+/*    margin: 0 auto;
+*/}
+
+.jumbotron {
+    text-align: center;
+    background: rgba(246, 226, 243, .3)
+}
+
+    .jumbotron .btn {
+        box-shadow: 0 2px 1px rgba(0,0,0,.9);
+        text-transform: uppercase;
+
+    }
+
+.background {
+        background: url(img/bokeh.jpg) no-repeat 0 0;
+        background-attachment: fixed;
+}
+
+a:hover {
+    opacity: .9;
+    position: relative;
+}
+
+.glyphicon-ok {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 100px;
+    left: 110px;
+
+}
