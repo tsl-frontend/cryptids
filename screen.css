@@ -7,41 +7,4 @@
 
 body {
     font-family: 'IM Fell DW Pica SC', serif;
-
-}
-
-h2{
-    position: fixed;
-    background: #2A3E8E;
-    color:white;
-    text-align:center;
-    width:100%;
-    text-transform: uppercase;
-    padding:10px;
-    margin: 0;
-    box-shadow: 1px 1px 3px black;
-    font-family: times new roman, sans-serif;
-}
-.navbar{
-    padding-top: 70px;
-}
-
-.nav.nav-pills ul {
-    /*text-align: center;*/
-}
-
-.nav.nav-pills li {
-    font-size: 16pt;
-    text-transform: uppercase;
-    display: inline-block;
-}
-
-.jumbotron {
-    text-align: center;
-    background: rgba(246, 226, 243, .3)
-}
-
-.background {
-        background: url(img/bokeh.jpg) no-repeat 0 0;
-        background-attachment: fixed;
 }
