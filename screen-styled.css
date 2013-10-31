@@ -7,6 +7,7 @@
 
 body {
     font-family: 'IM Fell DW Pica SC', serif;
+    background:url('img/bokeh.jpg') no-repeat fixed;
 
 }
 
@@ -27,7 +28,16 @@ body {
     text-transform: uppercase;
 }
 
+.jumbotron {
+     font-family: 'IM Fell DW Pica SC', serif;
+     text-align: center;
+     background-color: rgba(229,204,255, .2);
+}
 
+.jumbotron h1 {
+     font-family: 'IM Fell DW Pica SC', serif;
+     font-size: 100px;
+}
 .cryptid {
     padding-bottom: 20px;
     position: relative;
@@ -35,9 +45,12 @@ body {
 
 .glyphicon-ok {
     position: absolute;
-    top: 0;
-    right: 93%;
-    color: #479BBF;
-    font-size: 18px;
+    top: 25%;
+
+    color: white;
+    font-size: 110px;
+    z-index:1;
+
 }
 
+.
