@@ -3,11 +3,25 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background-repeat: no-repeat;
+
+}
+
+.container{
+    width: 100%;
+}
+
+h1{
+    background-color:blue;
+    color:white;
+    font-size:20px;
+    height: 50px;
+    width: 100%;
 }
 
 body {
     font-family: 'IM Fell DW Pica SC', serif;
     background: url("img/bokeh.jpg") no-repeat;
+
 }
 
 img{
@@ -19,11 +33,18 @@ img{
     margin-bottom: 12px;
 }
 
-.jumbotron, .nav, h1{
+.jumbotron, h1{
     padding:0px 40px;
+    text-align: center;
+    width:1260px;
 }
 
 .jumbotron {
     padding-bottom: 12px;
     background-color: rgba(200,0,0,.05);
 }
+
+.navbar.nav-pills a{
+    width: 80px;
+
+a:hover{background-color:red;}
