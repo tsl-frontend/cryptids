@@ -7,11 +7,9 @@
 
 body {
     font-family: 'IM Fell DW Pica SC', serif;
-    padding-top: 50px;
-}
-.background-pic{
-    background-image: url("img/bokeh.jpg")
-    ;
+    background: url("img/bokeh.jpg");
+
+
 }
 
 .row{
@@ -30,5 +28,22 @@ h2{
 
 .header {
     background: #1F3D99;
+    padding: 20px 0px 5px 0px;
+    margin-bottom: 15px;
+
+}
+
+li{
+    width: 15%;
+    text-align: center;
+}
+
+.jumbotron{
+    background: rgba(210,204,255,.2)
+}
+
+
+.opacity {
+    background: rgba(255,255,255,.2)
 
 }
