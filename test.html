@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>Form Website</title>
+
+    <style>
+        body {
+            background: pink;
+        }
+
+        input[type=text]:focus {
+            background: #aaa;
+            border: 5px solid green;
+        }
+
+        input {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="Test">
+
+        <select name="test" id="hi"><option value="">hi</option></select>
+
+        <fieldset>
+            <label for="do-you-want-to2">How happy are you?</label>
+            <label><input type="checkbox" name="do-you-want-to2" value="yes"> Very</label>
+            <label><input type="checkbox" name="do-you-want-to2" value="no"> Not Much</label>
+            <label><input type="checkbox" name="do-you-want-to2" value="maybe" checked="checked"> I hate you.</label>
+        </fieldset>
+
+
+        <fieldset>
+            <label for="do-you-want-to">Do you want to?</label>
+            <label><input type="radio" name="do-you-want-to" value="yes" checked="checked"> Yes</label>
+            <label><input type="radio" name="do-you-want-to" value="no"> NO</label>
+            <label><input type="radio" name="do-you-want-to" value="maybe"> Maybe?</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>About You</legend>
+
+            <label for="username">Your Name<br></label>
+            <input id="username" type="text" required><br>
+
+            <label>Your Name 2<Input id="username" name="username" type="text" required></label><br>
+
+        </fieldset>
+
+        <input type="text"><br>
+
+        <input type="email"><br>
+
+        <input type="url"><br>
+
+        <input type="tel"><br>
+
+        <button type="submit">GO</button>
+
+        <button type="button">DON'T LEAVE</button>
+
+        <input type="hidden" name="ghost" value="casper">
+
+        <input type="submit">
+
+    </form>
+
+
+</body>
+</html>
