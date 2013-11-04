@@ -47,3 +47,10 @@ li{
     background: rgba(255,255,255,.2)
 
 }
+
+.creature.active .glyphicon {
+position: absolute;
+top: 70px;
+left: 110px;
+color: white;
+font-size: 120px;
