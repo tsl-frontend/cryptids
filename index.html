@@ -63,12 +63,12 @@
 
 <div class="checkout" id="checkout">
 <div class="container">
-    <form autocomplete="off" enctype="multipart/form-data" method="post" action="https://starterleague.wufoo.com/forms/z1l5w8at0o1rcyj/#public">
+    <form class="orderForm" autocomplete="off" enctype="multipart/form-data" method="post" action="https://starterleague.wufoo.com/forms/z1l5w8at0o1rcyj/#public">
         <fieldset class="about row">
             <legend class="col-sm-3">About you</legend>
             <div class="col-sm-9">
-                <input class="form-control" type="text" name="Field3" placeholder="Your name" required>
-                <input class="form-control" type="email" name="Field4" placeholder="Your email address" required>
+                <input class="form-control" type="text" name="Field3" placeholder="Your name">
+                <input class="form-control" type="email" name="Field4" placeholder="Your email address">
                 <input class="form-control" type="phone" name="Field5" placeholder="Your phone number">
             </div>
         </fieldset>
@@ -93,13 +93,13 @@
         <fieldset class="currency row radio-check">
             <legend class="col-sm-3">Currency</legend>
             <div class="col-sm-9">
-                <input id="usd" name="Field1" type="radio" value="USD" required>
+                <input id="usd" name="Field1" type="radio" value="USD">
                 <label for="usd"><i class="glyphicon glyphicon-usd"></i>USD</label>
 
-                <input id="gbp" name="Field1" type="radio" value="GBP" required>
+                <input id="gbp" name="Field1" type="radio" value="GBP">
                 <label for="gbp"><i class="glyphicon glyphicon-gbp"></i>GBP</label>
 
-                <input id="euro" name="Field1" type="radio" value="Euro" required>
+                <input id="euro" name="Field1" type="radio" value="Euro">
                 <label for="euro" ><i class="glyphicon glyphicon-euro"></i>Euro</label>
             </div>
         </fieldset>
@@ -128,10 +128,24 @@
             </div>
         </fieldset>
 
+        <div class="success">
+            Thanks for ordering one of my fine monsters.<br>You won't be disappointed!
+        </div>
+
         <input type="hidden" id="idstamp" name="idstamp" value="ZD0elKpkwPO62i6HuqNHo82plv6ZqsZCn8CF7oOJWL0=" />
     </form>
 </div>
 </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script>
+$(function() {
+  $('.orderForm').submit(function() {
+    $('.orderForm').addClass('submitted');
+    return false;
+  });
+});
+</script>
 
 </body>
 </html>
